@@ -1,0 +1,44 @@
+body {
+    background: linear-gradient(#eb6b10 0%, deeppink 0%, #fcdb03 100%);
+    text-align: center;
+}
+
+.header_div {
+    color: aquamarine;
+}
+
+.header_div p {
+    font-family: Georgia;
+    color: chartreuse;
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.main_div button {
+    font-family: Cursive;
+    margin-top: 30px;
+    width: 130px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    border: 2px solid black;
+}
+
+.copy_right_footer {
+    position: fixed;
+    color: cyan;
+    background-color: gold;
+    line-height: 3;
+    text-align: center;
+    text-shadow: 5px 5px 5px grey;
+    bottom: 0;
+    width: 100%;
+    font-size: 25px;
+}
+
+#result_label, #result_confidence {
+    color: white;
+    font-style: italic;
+    font-family: Times New Roman;
+    font-size: 30px;
+}
